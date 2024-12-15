@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a1ab7d9cf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/peakpx.logo.jpg" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Shubham</span><br> From Pune</h1>
+      </div>
+    </div>
+</div>
+<!-- .............about -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/about.png.jpg" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subtitle"> About me </h1>
+        <p>I am a motivated and enthusiastic Java Full Stack Developer with a solid foundation in both frontend and backend technologies. I have hands-on experience in Java, Spring Boot, HTML, CSS, JavaScript, and frameworks like React and Bootstrap. I enjoy building responsive and user-friendly web applications, and I am always eager to learn and implement new technologies. As a fresher, I am excited to contribute to innovative development projects while continuously enhancing my skills..</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links"  onclick="opentab('experience')">Experience </p>
+          <p class="tab-links"   onclick="opentab('education')" >Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id ="skills">
+          <ul>
+            <li><span><B>FRONTEND TECHNOLOGIES</B> </span><br>HTML5, CSS3, JavaScript, React</li>
+            <li><span><B>BACKEND TECHNOLOGIES</B></span><br>Core Java, MySQL</li>
+            <li><span><B>FRAMEWORKS</B></span><br> Spring Boot & Bootstrap </li>
+            <li><span><B>OTHER SKILLS</B></span><br> Computer Networking, Git & Github, DBMS  </li>
+            <li><span><B>KEY CONCEPTS IN CORE JAVA</B></span><br> Object-oriented Programming(OOps), Collection Framework, Exception Handling and more </li>
+
+          </ul>
+        </div>
+
+        <div class="tab-contents" id ="experience">
+          <ul>
+            <li><span> <b>WEB DEVELOPMENT INTERN (NOV-2024)</b></span><br>OctaNet Services Pvt.Ltd. <br>Developed and enhanced web applications using HTML, CSS, JavaScript, and React.js. <br>Contributed to building responsive and interactive user-facing features. <br>Strengthened skills in teamwork, problem-solving, and modern web development practices.
+            </li>
+            <a href="images/Web-Dev Certificate.pdf" download class="btn btn2 btn3">Download Certificate </a>
+            <li><span> <B>INTERNATIONAL LEVEL STUDENT WORKSHOP - 2k24 </B></span><br> I participated in the International Student Workshop 2024 on Data Science Using Python, organized by DAV Institute of Engineering and Technology, Jalandhar, in association with Brainovision Solutions India Pvt. Ltd. The workshop, held from February 19th to February 23rd, 2024, provided in-depth insights into the field of Data Science, focusing on Python-based tools and techniques for data analysis and visualization.</li>
+            <a href="images/International Student Workshop.pdf" download class="btn btn2 btn3">Download Certificate </a>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id = "education" >
+          <ul>
+            <li><span><B>BACHELOR OF COMPUTER APPLICATIONS (BCA)</B></span><br> <span><b>INSTITUTE:</b></span> DAV Institute of Engineering and Technology (DAVIET), Jalandhar. <br> <span><b>DURATION: </b> </span>2021-2024 <br> <span><B>CGPA:</B></span> 7.40</li>
+            <li><span><b>HIGHER SECONDARY (PHYSICS, CHEMISTRY, MATH) BSEB XII</b></span><br> <span><B>COLLEGE:</B></span>Oriental college, Patna, Bihar <br>
+            <span><b>PERCENTAGE:</b></span> 72%</li>
+            <li><span><b>MATRICULATION (BSEB X)</b> </span><br> <span> <b> SCHOOL:</b></span> Sggs High School, Patna, Bihar <br> <span><b>PERCENTAGE:</b></span> 76%</li>
+            
+          </ul>
+          <div class ="shubham">
+            <li><span> <b> Bachelor of Computer Applications with a Focus on Software Development</b></span></li>
+          </div>
+          
+          <a href="images/Degree.pdf" download class="btn btn2 btn3">Download Degree </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ..............Services............. -->
+ <div id="services">
+  <div class="container">
+    <h1 class="subtitle">  My Services </h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Full Stack Developer</h2>
+        <p>As a Full Stack Developer, I specialize in designing and building complete web solutions, handling both the frontend and backend development processes. <br> I create responsive and user-friendly interfaces using technologies like HTML, CSS, JavaScript, and frameworks like React.js, while ensuring robust server-side functionality with Core Java, Spring Boot, and MySQL. My expertise includes developing RESTful APIs, integrating databases, and optimizing code for performance and scalability</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Web Developer</h2>
+        <p>
+          As a Web Developer, I specialize in creating responsive and visually appealing websites that provide seamless user experiences. <br> I have expertise in HTML, CSS, and JavaScript for frontend development, ensuring clean and interactive designs. Additionally, I utilize frameworks like React.js and Bootstrap to build dynamic, modern web applications</p>
+        <a href="#">Learn more</a>
+      </div>
+
+ <div>
+  <i class="fa-brands fa-app-store"></i>
+        <h2>Java Backend developer</h2>
+        <p>As a Java Backend Developer, I specialize in building robust and scalable server-side applications. <br> Using Core Java and frameworks like Spring Boot, I develop RESTful APIs, handle business logic, and manage efficient communication between databases and frontends. My expertise includes working with MySQL for data storage, ensuring secure and optimized database interactions.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+ </div>
+
+<!-- ...................Portfolio..................... -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">  My Work </h1>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="images/img1.jpeg" alt="">
+        <div class="layer">
+          <h3>E-commerce Website</h3>
+          <p>Developed a fully responsive eCommerce website, enhancing user experience and accessibility across various devices</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/img2.png" alt="">
+        <div class="layer">
+          <h3>Dark Navigation Using React js</h3>
+          <p>Developed a fully responsive eCommerce website, enhancing user experience and accessibility across various devices</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png" alt="">
+        <div class="layer">
+          <h3>Todos- list using React-js & bootstrap</h3>
+          <p>Developed a fully responsive eCommerce website, enhancing user experience and accessibility across various devices</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+<a href="#"class = "btn">See more</a>
+  </div>
+</div>
+
+<!-- ...............Content............ -->
+
+<div id="contact">
+  <div class="container">
+   <div class="row" >
+    <div class="contact-left">
+      <h1 class = "subtitle"> Contact Me </h1 >
+      <p> <i class="fa-solid fa-paper-plane"></i> shubhamgupta7667@gmail.com</p>
+      <p><i class="fa-solid fa-square-phone"></i> (+91) 9155244664</p>
+      <div class="social-icons">
+        <a href="www.linkedin.com/in/shubham-gupta-4715842aa"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="www.github.com/shubham-gupta123d"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/royal_guptaa/profilecard/?igsh=MXcxdnVjZWFubW9lOQ=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Shubham-Gupta/pfbid02CwksXV7wvB6nfumX9xnkep6LsTDTy1A4xjSZWfRj3AK2wrogTmHEZVw2yzEYqzsWl/?rdid=bcU42zOEh5I8tbh5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BAd6sVjzc%2F"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <a href="images/Shubham_Kumar_DEV.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+      <form name="submit-to-google-sheet">
+        <input type="text" name = "Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder ="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+     
+      </form>
+      <span id="msg"></span>
+    </div>
+   </div> 
+  </div>
+  <div class="copyright">
+    <p> Copyright © www.codingshubham.com <i class="fa-solid fa-heart"></i> | All Right Reserved|</p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+<!-- <script>
+  var tablinks = document.getElementsByClassName("tab-links")
+  var tabcontents = document.getElementsByClassName("tab-contents")
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script> -->
+</body>
+</html>
