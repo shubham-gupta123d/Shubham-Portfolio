@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a1ab7d9cf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/peakpx.logo.jpg" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Developer <br>(Proficient in Front-End Development)</p>
+        <h1>Hi, I'm <span>Shubham</span><br> From Pune</h1>
+      </div>
+    </div>
+</div>
+<!-- .............about -->
+
+<!-- ..............Services............. -->
+
+
+<!-- ...................Portfolio..................... -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">  My Work </h1>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="images/img1.jpeg" alt="">
+        <div class="layer">
+          <h3>E-commerce Website</h3>
+          <p>Developed a fully responsive eCommerce website, enhancing user experience and accessibility across various devices🚀</p>
+          <a href="https://shubham-gupta123d.github.io/E_Commerce_Website/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/BANanoFlix.jpg" alt="">
+        <div class="layer">
+          <h3>Movies-Website</h3>
+          <p>I developed a movie website demo page using HTML, CSS, and JavaScript, featuring a visually appealing UI, responsive design, and dynamic content display.🚀</p>
+          <a href="https://shubham-gupta123d.github.io/Movie_website/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/hq720.jpg" alt="">
+        <div class="layer">
+          <h3>Animated Landing Page</h3>
+          <p>I designed an animated landing page for Titan Watches using HTML, CSS, and JavaScript, featuring smooth animations, eye-catching transitions, and a responsive layout.✨🚀</p>
+          <a href="https://shubham-gupta123d.github.io/Animated_landing_page/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+<a href="#"class = "btn">See more</a>
+  </div>
+</div>
+
+<!-- ...............Content............ -->
+
+<div id="contact">
+  <div class="container">
+   <div class="row" >
+    <div class="contact-left">
+      <h1 class = "subtitle"> Contact Me </h1 >
+      <p> <i class="fa-solid fa-paper-plane"></i> shubhamgupta7667@gmail.com</p>
+      <p><i class="fa-solid fa-square-phone"></i> (+91) 9155244664</p>
+      <div class="social-icons">
+        <a href="www.linkedin.com/in/shubham-gupta-4715842aa"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="www.github.com/shubham-gupta123d"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/royal_guptaa/profilecard/?igsh=MXcxdnVjZWFubW9lOQ=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Shubham-Gupta/pfbid02CwksXV7wvB6nfumX9xnkep6LsTDTy1A4xjSZWfRj3AK2wrogTmHEZVw2yzEYqzsWl/?rdid=bcU42zOEh5I8tbh5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BAd6sVjzc%2F"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <a href="images/Shubham_Dev.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+      <form name="submit-to-google-sheet">
+        <input type="text" name = "Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder ="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+     
+      </form>
+      <span id="msg"></span>
+    </div>
+   </div> 
+  </div>
+  <div class="copyright">
+    <p> Copyright © www.codingshubham.com <i class="fa-solid fa-heart"></i> | All Right Reserved|</p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+<!-- <script>
+  var tablinks = document.getElementsByClassName("tab-links")
+  var tabcontents = document.getElementsByClassName("tab-contents")
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script> -->
+</body>
+</html>
