@@ -18,7 +18,7 @@
 
 <div id="portfolio">
   <div class="container " >
-    <h1 class="subtitle">  Front-End Development Services </h1><br>
+    <h1 class="subtitle">  Web Development Services </h1><br>
     <span id="element"></span>
     <div class="work-list">
 
@@ -110,16 +110,25 @@
 
 
 <script src="script.js"></script>
+<!-- <script>
+  var tablinks = document.getElementsByClassName("tab-links")
+  var tabcontents = document.getElementsByClassName("tab-contents")
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script> -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
   var typed = new Typed('#element', {
-    strings: [' I specialize in creating modern, responsive, and interactive Front-End applications.'],
-     typeSpeed: 50, // Speed of typing
-            backSpeed: 25, 
-            backDelay: 1000, 
-            startDelay: 500, 
-            loop: true, 
-            showCursor: true
+    strings: [' I specialize in creating modern, responsive, and interactive web applications.'],
+    typeSpeed: 50,
   });
 </script>
 </body>

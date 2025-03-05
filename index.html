@@ -23,8 +23,9 @@
         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
       <div class="header-text">
-        <p>Full Stack Developer <br>(Proficient in Front-End Development)</p>
         <h1>Hi, I'm <span>Shubham</span><br> From Pune</h1>
+         <h3> <p>I am a passionate  </p></h3>
+        <span id="element"></span>
       </div>
     </div>
 </div>
@@ -47,10 +48,12 @@
 
         <div class="tab-contents active-tab" id ="skills">
           <ul>
-            <li><span><B>FRONTEND TECHNOLOGIES</B> </span><br>HTML5, CSS3, JavaScript, React</li>
+            <li><span><B>FRONTEND TECHNOLOGIES</B> </span><br>HTML5, CSS3, JavaScript </li>
             <li><span><B>BACKEND TECHNOLOGIES</B></span><br>Core Java, MySQL</li>
-            <li><span><B>FRAMEWORKS</B></span><br> Spring Boot & Bootstrap </li>
-            <li><span><B>OTHER SKILLS</B></span><br> Computer Networking, Git & Github, DBMS  </li>
+            <li><span><B>CONTROL MANAGEMENT SYSYTEM (CMS)</B></span><br> WordPress </li>
+            <li><span><B>FRAMEWORKS & LIABRARY</B></span><br>Reactjs, Spring Boot, Bootstrap & Jquery </li>
+            <li><span><B>APIs</B></span><br> Rest Api </li>
+            <li><span><B>OTHER SKILLS</B></span><br> Computer Networking, Git & Github, DBMS, DSA(Data Structure & Algorithms)  </li>
             <li><span><B>KEY CONCEPTS IN CORE JAVA</B></span><br> Object-oriented Programming(OOps), Collection Framework, Exception Handling and more </li>
 
           </ul>
@@ -106,14 +109,14 @@
         <i class="fa-solid fa-crop"></i>
         <h2>Web Developer</h2>
        <p>I design and develop custom, responsive, and high-performance websites using WordPress, creating visually appealing and user-friendly experiences. With expertise in theme customization, plugin integration, and performance optimization, I ensure seamless functionality, SEO-friendly structures, and a smooth user experience across all devices. 🚀</p>
-        <a href="">Learn more</a>
+        <a href="http://127.0.0.1:5503/Web_devlopment.html">Learn more</a>
       </div>
 
  <div>
   <i class="fa-brands fa-app-store"></i>
         <h2>Java Full Stack developer</h2>
         <p>I am currently learning and developing full-stack web applications during my internship, working with Java, Spring Boot, MySQL, React.js, HTML, CSS, and JavaScript. Gaining hands-on experience in backend development, API integration, and front-end design, I am enhancing my skills in building scalable, responsive, and efficient web applications. 🚀</p>
-        <a href="#">Learn more</a>
+        <a href="http://127.0.0.1:5503/javaFullStack.html">Learn more</a>
       </div>
 
     </div>
@@ -188,7 +191,7 @@
    </div> 
   </div>
   <div class="copyright">
-    <p> Copyright © www.codingshubham.com <i class="fa-solid fa-heart"></i> | All Right Reserved|</p>
+    <p> Copyright © www.codingShubham.com <i class="fa-solid fa-heart"></i> | All Right Reserved|</p>
   </div>
 </div>
 
@@ -208,5 +211,19 @@
     document.getElementById(tabname).classList.add("active-tab");
   }
 </script> -->
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Front-End Development !', 'Wordpress Web Developement', 'Core Java Concepts!.'],
+    typeSpeed: 50, // Speed of typing
+            backSpeed: 25, 
+            backDelay: 1000, 
+            startDelay: 500, 
+            loop: true, 
+            showCursor: true
+  });
+</script>
+
 </body>
 </html>
