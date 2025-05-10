@@ -285,7 +285,7 @@ transform: scale(1.1) ;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 .btn:hover{
     background: #ff004f;
