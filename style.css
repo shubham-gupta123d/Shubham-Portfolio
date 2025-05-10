@@ -93,8 +93,9 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
+    height: auto;
     border-radius: 15px;
-    height: 70vh;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 .about-col-2{
     flex-basis: 60%;
@@ -188,6 +189,7 @@ margin: 10px 0;
 .services-list div i {
     font-size: 50px;
     margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 .services-list div h2{
     font-size: 30px;
@@ -223,6 +225,7 @@ margin: 10px 0;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 .work img{
     width: 100%;
@@ -230,6 +233,7 @@ margin: 10px 0;
     display: block;
     height: 50vh;
     transition: transform 0.5s;
+    
 }
 .layer{
     width: 100%;
@@ -281,6 +285,7 @@ transform: scale(1.1) ;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
 .btn:hover{
     background: #ff004f;
